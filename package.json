@@ -1,6 +1,6 @@
 {
   "name": "webcam-grabber",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Simple utility for grabbing video input from `getUserMedia` and channeling through a video element",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/andyinabox/webcam-grabber",
   "dependencies": {
+    "es6-object-assign": "^1.0.1",
     "getusermedia": "^1.3.5"
   },
   "devDependencies": {
